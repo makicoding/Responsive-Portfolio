@@ -43,8 +43,12 @@ body {
     width: 956px;
 
     padding: 0;
-    border: 1px solid white;
+    border: 1px none red;
     margin: 40px 0px 40px 0px;
+    /* 
+    Change border from none to solid to
+    view border
+    */
 
     color: silver;
     font-family: Arial, Helvetica, sans-serif;

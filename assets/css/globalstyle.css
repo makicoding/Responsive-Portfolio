@@ -266,3 +266,40 @@ through.  A value of 1 means not see through.
     padding: 0;
     margin: 0;
 }
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* Media Queries */
+
+/* Screen Size Max-Width is 768px */
+@media screen and (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+    .logoAndMenuBarContainer {
+        width: 728px;
+    }
+
+    .backgroundImage {
+        width: auto;
+        height: 100%;
+
+        transform: translate(-25%, 0px);
+    }
+
+    .logoButton {
+        transform: translate(-364px, 0px);  
+    }
+
+    .menuUl {
+        width: 538px;
+
+        transform: translate(-174px, 0px);
+    }
+
+    .menuLi a {
+        padding: 40px 20px 40px 20px;
+    }
+
+}
