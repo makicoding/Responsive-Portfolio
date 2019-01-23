@@ -7,15 +7,15 @@ ON THIS CSS
 /* Body of Page */
 
 body {
-    padding: 0;
-    margin: 0;
-
     height: 3000px;
     /* 
     Height of the body is determined here
     so that the user can scroll up the page
     to see just the background image.
     */
+
+    padding: 0;
+    margin: 0;
 }
 
 /* ---------------------------------------- */
@@ -23,14 +23,13 @@ body {
 
 .portfolioOuterContainer {
     width: 958px;
-    background-color: #ffffff;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #a1a1a1;
 
     padding: 0;
+    border: 1px solid #a1a1a1;
     margin: 0;
-    
+
+    background-color: #ffffff;
+   
     position: absolute;
     top: 0px;
     left: 50%;
@@ -41,15 +40,15 @@ body {
 /* Portfolio Title */
 
 .portfolioTitle {
+    padding: 0;
+    margin: 40px 0px 40px 0px;
+
     color: silver;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
 
-    padding: 0;
-    margin: 40px 0px 40px 0px;
-    
     position: relative;
     top: 0px;
     left: 50%;
@@ -60,21 +59,21 @@ body {
 /* Portfolio Inner Container */
 
 .portfolioGrid {
-    display: grid;
-    grid-template-columns: auto auto;
-
     padding: 0px 20px 0px 20px;
     margin: 0;
+
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .projectButton {
     width: 200px;
     height: 200px;
+
     padding: 0;
+    border: 0;
     margin: 0px 20px 10px 0px;
 
-    border: none;
-    
     cursor: pointer;
     outline: 0;
 
@@ -84,21 +83,22 @@ body {
 .projectImage {
     width: 200px;
     height: 200px;
+    
     padding: 0;
     margin: 0;
 }
 
 .projectDescription {
+    padding: 0;
+    margin: 0px 0px 60px 0px;
+
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 18px;
     text-align: justify;
     line-height: 1.5;
-
-    padding: 0;
-    margin: 0px 0px 60px 0px;
-    
+   
     position: relative;
     top: -5px;
 }

@@ -6,6 +6,7 @@
 .backgroundImage {
     width: 100%;
     height: auto;
+
     padding: 0;
     margin: 0;
     
@@ -34,17 +35,18 @@
     width: 180px;
     height: 65px;
 
+    padding: 35px 0px 0px 10px;
+    border: 0;
+
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 30px;
-    color: white;
-    background-color:#2953ca;
     text-align: left;
     text-decoration: none;
-    border-style: none;
     line-height: 1;
-    
-    padding: 35px 0px 0px 10px;
+
+    background-color:#2953ca;
 
     cursor: pointer;
     outline: 0;
@@ -80,19 +82,17 @@ through.  A value of 1 means not see through.
 /* Menu Bar */
 
 .menuUl {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #cecece;
-    
     width: 778px;
     height: 98px;
 
-    border-width: 1px;
-    border-style: solid;
-    border-color: #a1a1a1;
-
     padding: 0;
+    border: 1px solid #a1a1a1;
     margin: 0;
+
+    list-style-type: none;
+    overflow: hidden;
+
+    background-color: #cecece;  
 
     position: fixed;
     left: 50%;
@@ -104,36 +104,39 @@ through.  A value of 1 means not see through.
 }
 
 .menuLi a {
+    padding: 40px 30px 40px 30px;
+
     display: block;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 18px;
     text-align: center;
-    padding: 40px 30px 40px 30px;
     text-decoration: none;
 }
 
 /* Change link color on hover */
 .menuLi a:hover {
-    background-color: #191919;
     color: white;
+    
+    background-color: #191919;
 }
 
 /* ---------------------------------------- */
 /* First Footer */
 
 .fFooter {
-    background-color: #2953ca;
+    width: 100%;
+    height: 10px;
+
     color: white;
     text-align: center;
+
+    background-color: #2953ca;
 
     position: fixed;
     left: 0;
     bottom: 100px;
-    width: 100%;
-    height: 10px;
-
     /* 
     This part is if I want to customize the 
     width and positioning of First Footer later.
@@ -146,13 +149,14 @@ through.  A value of 1 means not see through.
 /* Second Footer Container */
 
 .sFooter {
+    width: 100%;
+    height: 100px;
+
     background-color: #cecece;
 
     position: fixed;
     left: 0;
     bottom: 0px;
-    width: 100%;
-    height: 100px;
     /* 
     This part is if I want to customize the 
     width and positioning of Second Footer later.
@@ -166,20 +170,22 @@ through.  A value of 1 means not see through.
 
 .sFooterButton1 {
     height: 20px;
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color: white;
-    background: none;
     text-align: center;
     text-decoration: none;
-    border-style: none;
+
+    background: none;
 
     cursor: pointer;
     outline: 0;
-
-    padding: 0;
-    margin: 0;
 
     position: fixed;
     left: 50%;
@@ -196,20 +202,22 @@ through.  A value of 1 means not see through.
 
 .sFooterButton2 {
     height: 20px;
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    color:white;
-    background: none;
     text-align: center;
     text-decoration: none;
-    border-style: none;
+
+    background: none;
 
     cursor: pointer;
     outline: 0;
-
-    padding: 0;
-    margin: 0;
 
     position: fixed;
     left: 50%;
@@ -235,6 +243,7 @@ through.  A value of 1 means not see through.
 .linkedInImage {
     width: 24px;
     height: 24px;
+
     padding: 0;
     margin: 0;
 }
@@ -253,6 +262,7 @@ through.  A value of 1 means not see through.
 .gitHubImage {
     width: 24px;
     height: 24px;
+    
     padding: 0;
     margin: 0;
 }
