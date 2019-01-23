@@ -40,7 +40,10 @@ body {
 /* Portfolio Title */
 
 .portfolioTitle {
+    width: 956px;
+
     padding: 0;
+    border: 1px solid white;
     margin: 40px 0px 40px 0px;
 
     color: silver;
@@ -48,11 +51,6 @@ body {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-
-    position: relative;
-    top: 0px;
-    left: 50%;
-    transform: translate(-479px, 0px);
 }
 
 /* ---------------------------------------- */

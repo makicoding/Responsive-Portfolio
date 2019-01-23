@@ -42,8 +42,8 @@ body {
 .contactTitle {
     width: 956px;
 
-    padding: 0px 0px 0px 0px;
-    border: 1px solid red;
+    padding: 0;
+    border: 1px solid white;
     margin: 40px 0px 40px 0px;
 
     color: silver;
@@ -59,9 +59,15 @@ body {
 .contactInnerContainer1 {
     width: 956px;
 
-    padding: 0px 0px 0px 0px;
-    border: 1px solid red;
-    margin: 0px 0px 40px 0px;
+    padding: 0;
+    border: 1px solid white;
+    margin: 0px 0px 40px 4px;
+    /* 
+    There is a slight optical illusion
+    happening on the contactAnchors
+    and so a 4px margin has been added
+    to the left
+    */
 
     color: black;
     font-family: Arial, Helvetica, sans-serif;
