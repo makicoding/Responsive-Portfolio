@@ -1,0 +1,127 @@
+/* 
+RELATIVE AND ABSOLUTE POSITION ITEMS 
+ON THIS CSS 
+*/
+
+/* ---------------------------------------- */
+/* Body of Page */
+
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 3000px;
+    /* 
+    Height of the body is determined here
+    so that the user can scroll up the page
+    to see just the background image.
+    */
+}
+
+/* ---------------------------------------- */
+/* Portfolio Outer Container */
+
+.portfolioOuterContainer {
+    width: 958px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a1a1a1;
+
+    padding: 0;
+    margin: 0;
+    
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-480px, 140px);
+}
+
+/* ---------------------------------------- */
+/* Portfolio Title */
+
+.portfolioTitle {
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+    padding: 0;
+    margin: 40px 0px 40px 0px;
+    
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-479px, 0px);
+}
+
+/* ---------------------------------------- */
+/* Portfolio Inner Container */
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 0px 20px 0px 20px;
+    margin: 0;
+}
+
+.projectButton {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0px 20px 10px 0px;
+
+    border: none;
+    
+    cursor: pointer;
+    outline: 0;
+
+    position: relative;
+}
+
+.projectImage {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.projectDescription {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+
+    padding: 0;
+    margin: 0px 0px 60px 0px;
+    
+    position: relative;
+    top: -5px;
+}
+
+/* ---------------------------------------- */
+/* Project Description Anchor Style */
+
+/* Unvisited link */
+.descriptionAnchor:link {
+    color: #2953ca;
+}
+
+/* Visted link */
+.descriptionAnchor:visited {
+    color: #2953ca;
+}
+
+/* Mouse hover link */
+.descriptionAnchor:hover {
+    color: #ffcc00;
+}
+
+/* Selected link */
+.descriptionAnchor:active {
+    color: red;
+}

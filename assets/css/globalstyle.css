@@ -1,0 +1,258 @@
+/* FIXED POSITION ITEMS ON THIS CSS */
+
+/* ---------------------------------------- */
+/* Background Image Container */
+
+.backgroundImage {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    z-index: -1;
+}
+
+/* ---------------------------------------- */
+/* Logo and Menu Bar Container */
+
+.logoAndMenuBarContainer {
+    width: 960px;
+    height: 100px;
+    
+    position: fixed;
+    top: 20px;
+}
+
+/* ---------------------------------------- */
+/* Logo Button */
+
+.logoButton {
+    width: 180px;
+    height: 65px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    background-color:#2953ca;
+    text-align: left;
+    text-decoration: none;
+    border-style: none;
+    line-height: 1;
+    
+    padding: 35px 0px 0px 10px;
+
+    cursor: pointer;
+    outline: 0;
+  
+    position: fixed;
+    left: 50%;
+    transform: translate(-480px, 0px);  
+
+    opacity: 1;
+}
+/* 
+The outline: 0 in the above code removes the 
+blue outline for the button when the button 
+is clicked.
+
+Changing the opactiy in the above code
+will change how much see-through the button
+becomes.  A value of 0 means completely see
+through.  A value of 1 means not see through. 
+*/
+
+/* Hover over Logo Button */
+.logoButton:hover {
+    background-color: #2953ca;
+}
+
+/* Selected Logo Button */
+.logoButton:active {
+    background-color: #2953ca;
+}
+
+/* ---------------------------------------- */
+/* Menu Bar */
+
+.menuUl {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #cecece;
+    
+    width: 778px;
+    height: 98px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a1a1a1;
+
+    padding: 0;
+    margin: 0;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(-300px, 0px);
+}
+
+.menuLi {
+    float: right;
+}
+
+.menuLi a {
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 30px 40px 30px;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+.menuLi a:hover {
+    background-color: #191919;
+    color: white;
+}
+
+/* ---------------------------------------- */
+/* First Footer */
+
+.fFooter {
+    background-color: #2953ca;
+    color: white;
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+    height: 10px;
+
+    /* 
+    This part is if I want to customize the 
+    width and positioning of First Footer later.
+    left: 50%;
+    transform: translate(-50%, 0);
+    */
+}
+
+/* ---------------------------------------- */
+/* Second Footer Container */
+
+.sFooter {
+    background-color: #cecece;
+
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    /* 
+    This part is if I want to customize the 
+    width and positioning of Second Footer later.
+    left: 50%;
+    transform: translate(-50%, 0);
+    */
+}
+
+/* ---------------------------------------- */
+/* Email Button */
+
+.sFooterButton1 {
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    border-style: none;
+
+    cursor: pointer;
+    outline: 0;
+
+    padding: 0;
+    margin: 0;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(-123.3205px, 10px);
+}
+
+/* Change link color on hover of Email Button */
+.sFooterButton1:hover {
+    color: #2953ca;
+}
+
+/* ---------------------------------------- */
+/* Tel Button */
+
+.sFooterButton2 {
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:white;
+    background: none;
+    text-align: center;
+    text-decoration: none;
+    border-style: none;
+
+    cursor: pointer;
+    outline: 0;
+
+    padding: 0;
+    margin: 0;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(-67.8205px, 35px);
+}
+
+/* Change link color on hover of Tel Button */
+.sFooterButton2:hover {
+    color: #2953ca;
+}
+
+/* ---------------------------------------- */
+/* LinkedIn Button */
+
+.sFooterButton3 {
+    cursor: pointer;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(-32px, 64px);
+}
+
+.linkedInImage {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------- */
+/* GitHub Button */
+
+.sFooterButton4 {
+    cursor: pointer;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(8px, 64px);
+}
+
+.gitHubImage {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+}

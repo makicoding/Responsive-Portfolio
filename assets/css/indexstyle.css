@@ -1,0 +1,91 @@
+/* 
+RELATIVE AND ABSOLUTE POSITION ITEMS 
+ON THIS CSS 
+*/
+
+/* ---------------------------------------- */
+/* Body of Page */
+
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 2000px;
+    /* 
+    Height of the body is determined here
+    so that the user can scroll up the page
+    to see just the background image.
+    */
+}
+
+/* ---------------------------------------- */
+/* About Me Outer Container */
+
+.aboutMeOuterContainer {
+    width: 958px;
+    background-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a1a1a1;
+
+    padding: none;
+    margin: none;
+    
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-480px, 140px);
+}
+
+/* ---------------------------------------- */
+/* About Me Title */
+
+.aboutMeTitle {
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+    padding: none;
+    margin: 40px 0px 40px 0px;
+    
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translate(-479px, 0px);
+}
+
+/* ---------------------------------------- */
+/* About Me Inner Container */
+
+.aboutMeInnerContainer {
+    padding: 0px 20px 0px 20px;
+    margin: none;
+}
+
+.profilePicture {
+    width: 200px;
+    height: 200px;
+
+    padding: none;
+    margin: 0px 20px 10px 0px;
+    
+    position: relative;
+    float: left;
+}
+
+.bioText {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+
+    padding: none;
+    margin: 0px 0px 60px 0px;
+    
+    position: relative;
+    top: -5px;
+}
