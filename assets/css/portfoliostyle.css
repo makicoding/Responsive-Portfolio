@@ -127,3 +127,63 @@ body {
 .descriptionAnchor:active {
     color: red;
 }
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+
+/* When Screen Size max-width is 768px (iPad) */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 768px;
+    }
+
+    .portfolioOuterContainer {
+        width: 728px;
+
+        transform: translate(-364px, 140px);
+    }
+    
+    .portfolioTitle {
+        width: 728px;
+    
+        font-size: 38px;
+    }
+    
+}
+
+/* ---------------------------------------- */
+/* 
+Screen Size Max-Width is 640px
+(About the width of phone in landscape) 
+*/
+
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 640px;
+    }
+
+    .portfolioOuterContainer {
+        width: 608px;
+
+        transform: translate(-304px, 80px);
+    }
+    
+    .portfolioTitle {
+        width: 608px;
+
+        margin: 20px 0px 20px 0px;
+    
+        font-size: 31.5px;
+    }
+    
+    .projectDescription {
+        margin: 0px 0px 50px 0px;
+    
+        font-size: 16px;
+    }    
+    
+}

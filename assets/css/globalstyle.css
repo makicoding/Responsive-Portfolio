@@ -269,16 +269,14 @@ through.  A value of 1 means not see through.
 
 /* ---------------------------------------- */
 /* ---------------------------------------- */
-/* Media Queries */
+/* MEDIA QUERIES */
 
-/* Screen Size Max-Width is 768px */
+/* Screen Size Max-Width is 768px (iPad) */
+
 @media screen and (max-width: 768px) {
+
     body {
         width: 768px;
-    }
-
-    .logoAndMenuBarContainer {
-        width: 728px;
     }
 
     .backgroundImage {
@@ -286,6 +284,10 @@ through.  A value of 1 means not see through.
         height: 100%;
 
         transform: translate(-25%, 0px);
+    }
+
+    .logoAndMenuBarContainer {
+        width: 728px;
     }
 
     .logoButton {
@@ -302,4 +304,93 @@ through.  A value of 1 means not see through.
         padding: 40px 20px 40px 20px;
     }
 
+}
+
+/* ---------------------------------------- */
+/* 
+Screen Size Max-Width is 640px
+(About the width of phone in landscape) 
+*/
+
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 640px;
+    }
+
+    .backgroundImage {
+        width: auto;
+        height: 100%;
+
+        transform: translate(-25%, 0px);
+    }
+
+    .logoAndMenuBarContainer {
+        width: 640px;
+        height: 60px;
+        
+        position: fixed;
+        top: 0px;
+    }
+
+    .logoButton {
+        width: 100px;
+        height: 40px;
+    
+        padding: 20px 0px 0px 8px;
+
+        font-size: 16px;
+      
+        position: fixed;
+        left: 50%;
+        transform: translate(-320px, 0px);  
+    }
+
+    .menuUl {
+        width: 538px;
+        height: 58px;
+    
+        position: fixed;
+        left: 50%;
+        transform: translate(-220px, 0px);
+    }
+    
+    .menuLi a {
+        padding: 21px 25px 21px 25px;
+
+        font-size: 16px;
+    }
+
+    .fFooter {
+        height: 5px;
+    
+        position: fixed;
+        left: 0;
+        bottom: 60px;
+    }
+
+    .sFooter {
+        height: 60px;
+    }
+    
+    .sFooterButton1 {
+        position: fixed;
+        left: 50%;
+        transform: translate(-123.3205px, 5px);
+    }
+
+    .sFooterButton2 {
+        position: fixed;
+        left: 50%;
+        transform: translate(-67.8205px, 32px);
+    }
+    
+    .sFooterButton3 {
+        display: none;
+    }
+    
+    .sFooterButton4 {
+        display: none;
+    }
+    
 }

@@ -93,10 +93,12 @@ body {
 
 /* ---------------------------------------- */
 /* ---------------------------------------- */
-/* Media Queries */
+/* MEDIA QUERIES */
 
-/* When Screen Size max-width is 768px */
+/* When Screen Size max-width is 768px (iPad) */
+
 @media screen and (max-width: 768px) {
+
     body {
         width: 768px;
     }
@@ -112,4 +114,48 @@ body {
     
         font-size: 38px;
     }
+
+}
+
+/* ---------------------------------------- */
+/* 
+Screen Size Max-Width is 640px
+(About the width of phone in landscape) 
+*/
+
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 640px;
+    }
+
+    .aboutMeOuterContainer {
+        width: 608px;
+
+        transform: translate(-304px, 80px);
+    }
+    
+    .aboutMeTitle {
+        width: 608px;
+
+        margin: 20px 0px 20px 0px;
+    
+        font-size: 31.5px;
+    }
+
+    .aboutMeInnerContainer {
+        padding: 0px 20px 0px 20px;
+        margin: 0;
+    }
+
+    .profilePicture {
+        margin: 0px 20px 15px 0px;
+    }
+
+    .bioText {
+        margin: 0px 0px 30px 0px;
+
+        font-size: 16px;
+    }
+
 }

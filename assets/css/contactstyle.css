@@ -109,9 +109,9 @@ body {
 /* Contact Inner Container 2 */
 
 .contactInnerContainer2 {
-    width: 900px;
+    width: 916px;
     
-    padding: 0px 20px 60px 0px;
+    padding: 0px 0px 60px 0px;
     margin: 0px 20px 0px 20px;
 
     color: black;
@@ -128,7 +128,7 @@ body {
 
 /* Contact Form */
 input[type=text], textarea {
-    width: 898px;
+    width: 894px;
     height: 18px;
 
     padding: 10px 10px 10px 10px;
@@ -172,4 +172,99 @@ input[type=submit]:hover {
 /* Selected Submit Button */
 input[type=submit]:active {
     background-color: red;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+
+/* When Screen Size max-width is 768px (iPad) */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 768px;
+    }
+
+    .contactOuterContainer {
+        width: 728px;
+
+        transform: translate(-364px, 140px);
+    }
+    
+    .contactTitle {
+        width: 728px;
+    
+        font-size: 38px;
+    }
+
+    .contactInnerContainer1 {
+        width: 726px;
+    }
+
+    .contactInnerContainer2 {
+        width: 688px;
+
+        font-size: 18px;
+        
+        background-color: white;
+        /* 
+        Change background color to see the
+        position of contactInnerContainer2
+        */
+    }
+
+    /* Contact Form */
+    input[type=text], textarea {
+        width: 666px;
+    }
+
+}
+
+/* ---------------------------------------- */
+/* 
+Screen Size Max-Width is 640px
+(About the width of phone in landscape) 
+*/
+
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 640px;
+    }
+
+    .contactOuterContainer {
+        width: 608px;
+
+        transform: translate(-304px, 80px);
+    }
+    
+    .contactTitle {
+        width: 608px;
+
+        margin: 20px 0px 20px 0px;
+    
+        font-size: 31.5px;
+    }
+    
+    .contactInnerContainer1 {
+        width: 606px;
+    }
+
+    .contactInnerContainer2 {
+        width: 568px;
+
+        background-color: white;
+        /* 
+        Change background color to see the
+        position of contactInnerContainer2
+        */
+
+    }
+
+    /* Contact Form */
+    input[type=text], textarea {
+        width: 546px;
+    }
+
 }
