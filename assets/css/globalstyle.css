@@ -271,6 +271,24 @@ through.  A value of 1 means not see through.
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
 
+/* Screen Size Max-Width is 980px */
+
+@media screen and (max-width: 980px) {
+    
+    body {
+        width: 980px;
+    }
+    
+    .backgroundImage {
+        width: auto;
+        height: 100%;
+
+        transform: translate(-12%, 0px);        
+    }
+    
+}
+
+
 /* Screen Size Max-Width is 768px (iPad) */
 
 @media screen and (max-width: 768px) {
